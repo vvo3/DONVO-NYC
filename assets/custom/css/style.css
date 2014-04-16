@@ -1,0 +1,268 @@
+body {
+	color:white;
+	padding: 0;
+	margin: 0;
+}
+a, a:hover, a:active{color: #000000;}
+margin-left: 10px;
+
+.title {
+	border-bottom:1px solid #eee;
+	padding-bottom:4px; 
+	margin-bottom:20px;
+}
+
+.topHeaderSection {
+	background:#fff;
+}
+
+.header {
+	z-index: 999;
+	position: relative;
+	padding: 0;
+}
+
+.is-sticky {
+	width: 100%;
+	background-color: rgba(255,255,255,0.95);
+}
+
+
+/* TOP BAR */
+.top-nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #000000;
+	z-index:9999;
+	margin-top: 0;
+	padding: 0;
+}
+
+.top-nav ul {
+	display: inline-block;
+	text-align: center;
+	width: 514px;
+	float: right;
+	margin-left: 100px;
+	margin-right: 10px;
+	background-color: #000000;
+	margin-bottom: 0;
+	margin-top:  0px;
+	list-style-type: none;
+}
+
+.top-nav li {
+	float: left;
+	margin-right: 30px;
+	z-index: 100000;
+	position: relative;
+}
+
+.top-nav h6 {
+	color: white;
+}
+
+
+/* FOOTER */
+.footerTopSection {
+	background:#000000; padding:18px 0; border-top: 1px solid #e7e7e7;
+}
+.footerBottomSection{background:#000000; padding:18px 0; color:#fff}
+
+
+/* CATEGORIES NAVIGATION */
+.navbar-collapse {
+	background: #ffffff;
+	z-index: 9999;
+	padding: -20px;
+	margin-top: 0px;
+	margin-bottom: -100px;
+	padding-bottom: -100px;
+}
+.navbar-toggle {
+	border-radius: 0;outline:0;
+}
+.navbar-toggle span {border-color: #000000;background: black;}
+.nav>li>a:hover, .nav>li>a:focus {text-decoration: none;background-color: #fff;}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {background-color: #fff; border-color: #428bca;}
+
+.navbar-nav>li>a {padding-top: 23px;padding-bottom: 0px;color: #000000;}
+.navbar-nav>li>a>h5,h6 {display: inline-block;}
+.navbar-nav>li.active>a, .navbar-nav>li>a:hover {color: #969696;}
+
+.navbar-brand {
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	font-weight: 900;
+	display: block;
+}
+
+.subtitle {
+	font-family: TimesNewRomanPS-BoldMT;
+	font-size: 12px;
+	color: #000000;
+	display: block;
+	margin-bottom: -10px;
+}
+
+.btn-brand{background-color: #ecc6b7; border-color: #ff4800;color:#fff}
+.btn-brand:hover, .btn-brand:focus, .btn-brand:active, .btn-brand.active, .open .dropdown-toggle.btn-brand {color: #fff; background-color: #F07341; border-color: #F07341;}
+
+
+
+.col {
+	height: 350px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+}
+
+.col h1, .col h2, .col h3 {
+	position: absolute;
+	text-align: center;	
+	color: white;
+	top: 40%;
+	text-align: center;
+}
+
+.big {
+	background-color: aqua;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.small {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.row {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+}
+
+.container {
+	padding-right: 0; /*15px in bootstrap.css*/
+	padding-left: 0;  /*idem*/
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	color: black;
+}
+
+
+
+.block {
+	display: block;
+}
+
+.block:hover {
+	display: block;
+	background-color: black;
+	opacity:1;
+}
+
+
+/*************** ALERT BOX *****************/
+.alert {
+	background-color: rgba(0,0,0,0.66);
+	border-color: rgba(0,0,0,0);
+	position: fixed;
+	z-index: 999999999;
+}
+
+.alert h4 {
+	color: rgba(255,255,255,0.8);
+	margin: 40px;
+	text-align: center;
+}
+
+.alert #float-input-1 {
+	width: 30%;
+}
+
+
+.btn {
+	border-color: white;
+	background-color: rgba(0,0,0,0.4);	
+	color: white;
+}
+
+
+#float-input-1 {
+	border-color: white;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+}
+
+
+
+
+/* POSTS */
+#main {
+	background-image: url('http://images2.fanpop.com/image/photos/11000000/Nicholas-Hoult-for-Tom-Ford-nicholas-hoult-11028367-1920-1200.jpg');
+	height: 500px;
+	line-height: 500px;
+}
+
+#instagram {
+	background-image: url('http://distilleryimage10.ak.instagram.com/79d247b0c0d411e3a6750002c99cbd02_8.jpg');
+}
+
+#blog {
+	background-image: url('http://distilleryimage10.ak.instagram.com/d7be7da8c18811e396340002c99cbb0a_8.jpg');
+}
+
+#summer {
+	background-image: url('http://www.vincent-ko.com/wp-content/uploads/2012/11/Acne-x-MR-PORTER.jpg');	
+}
+
+#howTo {
+	background-image: url('http://www.cityist.com/wp-content/uploads/2011/05/securedownload.jpeg');
+}
+
+#wedding {
+	background-image: url('http://www.esquire.com/cm/esquire/images/lu/esq-mr-porter-wedding-041912-xlg.jpg');
+}
+
+#trends {
+	background-image: url('http://www.gq.com/style/blogs/the-gq-eye/GQ-Selects-MR-PORTER-March-2013-635.jpg');
+}
+
+
+
+/* Media Query */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 480px) {
+.topHeaderSection {padding: 0;}
+.da-slide .da-img{display:none}
+.da-slide h2 {top: 18px;}
+.da-slide p {top: 255px;}
+
+.navbar-nav.navbar-right: last-child {
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.navbar-toggle {margin-top: 21px;}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
